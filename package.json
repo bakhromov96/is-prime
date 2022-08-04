@@ -1,0 +1,24 @@
+{
+  "name": "is-prime",
+  "version": "1.0.0",
+  "description": "Checks whether number is prime",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "mocha dist/test.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Khurshid Bakhromov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
